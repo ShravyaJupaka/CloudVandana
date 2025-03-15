@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            width: 300px;
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .profile-img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+       
+        <img src="Shravyaa.jpg" alt="Profile Picture" class="profile-img">
+        <h2>Shravya Jupaka</h2>
+        <h4>Software Engineer</h4>
+        <p>Passionate about coding and problem-solving.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/shravya-jupaka-88315a314" target="_blank">🔗</a>
+            <a href="https://github.com/ShravyaJupaka" target="_blank">🖥️</a>
+            
+        </div>
+    </div>
+</body>
+</html>
 
